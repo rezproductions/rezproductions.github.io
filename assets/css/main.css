@@ -159,7 +159,10 @@ h6 {
 
 .header .profile-img img {
   margin: 15px auto;
+  width: 100%;       /* It will fill the width of its parent container */
+  aspect-ratio: 1/1; 
   display: block;
+  object-fit: cover;
   width: 120px;
   border: 8px solid color-mix(in srgb, var(--default-color), transparent 85%);
 }
